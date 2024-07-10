@@ -53,7 +53,7 @@ def check_headcount():
     return headcount
 
 def main():
-    headcount_threshold = 50  # Set your desired headcount threshold
+    headcount_threshold = 50 
     headcount = check_headcount()
     print(f'Current headcount: {headcount}')
     
